@@ -1,18 +1,39 @@
 # Flask_Rest_APIs
- Udemy Course Learning About Flask and Rest APIs
+
+Udemy Course Learning About Flask and Rest APIs
 
 ### Python Refresher
 
-#### Unpacking Arguments 
-Use *args  to collect the arguments and **kwargs for collection the keyword/dictionary arguments
-``` 
+#### Unpacking Arguments
+
+Use \*args to collect the arguments and \*\*kwargs for collection the keyword/dictionary arguments
+
+```
 def multiply(*args):
     print(args)
 multiply(1,3,5)
 ```
-#### Magic Methods
-- __init__: initializes the value
-- __str__: string representation of the object so it can be printed on the console 
-- __repr__: uniambiguous, used in debugger, can be used to recreate object.
 
-#### Classic and Static Method
+#### Magic Methods
+
+- **init**: initializes the value
+- **str**: string representation of the object so it can be printed on the console
+- **repr**: uniambiguous, used in debugger, can be used to recreate object.
+
+#### Class and Static Method
+
+Can be called without a object Creation but like normal function. @classmethod will be used with parameter while @staticmethod without parameters.
+
+#### Decorators
+```
+import functools
+@functools.wraps() - put in inside the function to access documentation and names
+```
+
+### Flask
+
+To run flask, from the same folder containing app.py file
+``` 
+flask run
+```
+
