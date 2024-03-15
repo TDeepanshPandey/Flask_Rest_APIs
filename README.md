@@ -53,3 +53,7 @@ After Db Changes
 ```
 flask db migrate
 ```
+JWT Authorization
+```
+JWT
+```
