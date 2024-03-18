@@ -37,23 +37,23 @@ To run flask, from the same folder containing app.py file
 flask run
 ```
 
-Use abort function to have nicer Not Found
+#### Use abort function to have nicer Not Found
 ```
 abort(404,message = "Store not found.")
 ```
-Docker Mount the folder
+#### Docker Mount the folder
 ```
 docker run -dp 5005:5000 -w /app -v "$(pwd):/app" flaskapp
 ```
-Flask Migrate
+#### Flask Migrate
 ```
 flask db init
 ```
-After Db Changes
+#### After Db Changes
 ```
 flask db migrate
 ```
-JWT Authorization
+####  JWT Authorization
 ```
 JWT
 ```
