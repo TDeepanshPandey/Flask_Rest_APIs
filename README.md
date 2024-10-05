@@ -4,7 +4,7 @@
 
 Udemy Course Learning About Flask and Rest APIs. 
 
-![Course Link](https://www.udemy.com/course/rest-api-flask-and-python/)
+[Course Link](https://www.udemy.com/course/rest-api-flask-and-python/)
 
 ### Python Refresher
 
