@@ -1,6 +1,10 @@
+[![wakatime](https://wakatime.com/badge/user/d9585be0-a800-4e7a-9c42-e2fb31c12a87/project/018e34de-50de-4eb7-b01e-2a7bd930646c.svg)](https://wakatime.com/badge/user/d9585be0-a800-4e7a-9c42-e2fb31c12a87/project/018e34de-50de-4eb7-b01e-2a7bd930646c)
+
 # Flask_Rest_APIs
 
-Udemy Course Learning About Flask and Rest APIs
+Udemy Course Learning About Flask and Rest APIs. 
+
+![Course Link](https://www.udemy.com/course/rest-api-flask-and-python/)
 
 ### Python Refresher
 
@@ -55,5 +59,5 @@ flask db migrate
 ```
 ####  JWT Authorization
 ```
-JWT
+@jwt_required
 ```
